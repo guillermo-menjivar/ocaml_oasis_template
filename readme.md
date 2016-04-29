@@ -1,6 +1,6 @@
 #Build from Oasis
 
-##Once you have an "_oasis" file populate run the following:
+##Once you have an "_oasis" file populated run the following:
 
 This will create a make file and helper files
 
