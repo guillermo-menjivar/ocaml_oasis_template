@@ -1,0 +1,18 @@
+OASISFormat: 0.4
+Name:        Me
+Version:     0.1
+Synopsis:    example
+Description: basic example
+Authors:     videte47
+Maintainers: videte47
+License:     PROP
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+
+Executable main
+  Path:           .
+  MainIs:         main.ml
+  CompiledObject: best
+  BuildDepends:   yojson,
+                  cohttp
+
