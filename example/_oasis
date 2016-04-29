@@ -13,6 +13,6 @@ Executable main
   Path:           .
   MainIs:         main.ml
   CompiledObject: best
-  BuildDepends:   yojson,
-                  cohttp
+  BuildDepends:   rresult,
+                  cohttp.lwt
 
