@@ -1,0 +1,16 @@
+OASISFormat: 0.4
+Name:        <package name>
+Version:     <version>
+Synopsis:    
+Description: <Description>
+Authors:     <your-name>
+Maintainers: <maintainers-name>
+License:     PROP
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+
+Executable <exec name>
+  Path:           <path to ml file (note "." can be use for CWD)>
+  MainIs:         <main .ml file>
+  CompiledObject: best
+  BuildDepends:   <list your dependecies>
